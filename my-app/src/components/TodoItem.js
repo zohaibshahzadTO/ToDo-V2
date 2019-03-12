@@ -10,7 +10,7 @@ export default class TodoItem extends Component {
           <span className="mx-2 text-success">
             <i className="fas fa-pen" onClick={handleEdit}/>
           </span>
-          <span className="mx-2 text-danger" onclick={handleDelete}>
+          <span className="mx-2 text-danger" onClick={handleDelete}>
             <i className="fas fa-trash" />
           </span>
         </div>
